@@ -1,0 +1,88 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Logs & diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Runtime data ---
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Coverage & testing ---
+coverage/
+.nyc_output/
+.tmp/
+.vitest/
+jest-html-reporters-*
+test-results/
+
+# --- Build outputs / caches ---
+dist/
+build/
+out/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.esbuild/
+
+# --- TypeScript ---
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# --- Transpiled artifacts ---
+*.map
+
+# --- OS / Editor cruft ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# --- IDEs ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# --- Tooling ---
+.eslintcache
+.stylelintcache
+.prettier-cache
+node_repl_history
+
+# --- Package managers (keep your lockfile committed) ---
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# --- Docker / containers ---
+docker-data/
+*.local.yml
+
+# --- Misc project-specific ---
+tmp/
+temp/
+uploads/
